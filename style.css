@@ -101,7 +101,7 @@ main {
         font-weight: 600;
         cursor: pointer;
 
-        &::hover {
+        &:hover {
             background: var(--color-brand-hover);
         }
     }

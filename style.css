@@ -27,7 +27,7 @@ body {
     background: var(--background-primary);
 }
 
-header {
+header{
     margin-bottom: 4.4rem;
     max-width: 62.7rem;
     margin-inline: auto;
@@ -36,27 +36,25 @@ header {
     align-items: start;
 
     img {
-     width: 15.4rem;
-     margin-inline: auto;
-     margin-bottom: 3rem;
+        width: 15.4rem;
+        margin-inline: auto;
+        margin-bottom: 3rem;
     }
 
     button {
-    border: none;
-    background: none;
-    font-size: 1.4rem;
-    line-height: 1.6rem;
-    font-weight: 500;
-    margin-bottom: 1.6rem;
-    color: var(--color-brand);
-    cursor: pointer;
-  }
+        border: none;
+        background: none;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        font-weight: 500;
+        margin-bottom: 1.6rem;
+        color: var(--color-brand);
+        cursor: pointer;
+    }
 
-  h1 {
-    font-size: 2.4rem;
-    color: var(--content-primary);
-    line-height: 3.2rem;
-  }
-
-  
+    h1 {
+        font-size: 2.4rem;
+        color: var(--content-primary);
+        line-height: 3.2rem;
+    }
 }

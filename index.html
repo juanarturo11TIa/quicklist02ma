@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link
+    <!doctype html>
+<html>
+  <head>
+    <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
@@ -13,84 +16,79 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"
     />
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script src="./main.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Quicklist</title>
 </head>
 <body>
     <header>
-        <img src="./assets/logo.png" alt="logo Quicklist">
+        <img src="./assets/logo.png" alt="Logo quicklist">
 
-        <button>
-            <i class="ph ph-arrow-left"></i>
-            voltar
-        </button>
-        <h1>Compras de semana</h1>
+        <button><i class="ph ph-arrow-left"></i>
+        Voltar</button>
+        <h1>Compras da semana</h1>
+    </header>
 
-        <main>
-            <section class="add-item">
-            <input type="text" placeholder="adicione um novo item" id="item">
-            <button>adicionar item</button>
-            </section>
+    <main>
+        <section class="add-item">
+            <input type="text" placeholder="Adicione um novo item" id="item">
+            <button onclick="addItem()">Adicionar item</button>
+        </section>
 
-            <section class="list">
-                <div class="item">
+        <section class="list">
+            <div class="item">
                 <div>
                     <input type="checkbox" name="list" id="item-1">
-
-                    <div class="custon-checkbox">
-                        <img src="./assets/checked.svg" alt="">
+                    <div class="custom-checkbox">
+                        <img src="./assets/checked.svg" alt="checked">
                     </div>
-                    <label for="item-1">maçã</label>
+                    <label for="item-1">Maça</label>
                 </div>
+                <button>
+                    <img src="./assets/trash-icon.svg" alt="trash icon">
+                </button>
+            </div>
 
-                <button><img src="./assets/trash-icon.svg" alt=""></button>
-                </div>
-
-
-                     <div class="item">
+            <div class="item">
                 <div>
                     <input type="checkbox" name="list" id="item-2">
-
-                    <div class="custon-checkbox">
-                        <img src="./assets/checked.svg" alt="">
+                    <div class="custom-checkbox">
+                        <img src="./assets/checked.svg" alt="checked">
                     </div>
-                    <label for="item-2">melancia</label>
+                    <label for="item-2">Melancia</label>
                 </div>
+                <button>
+                    <img src="./assets/trash-icon.svg" alt="trash icon">
+                </button>
+            </div>
 
-                <button><img src="./assets/trash-icon.svg" alt=""></button>
-                </div>
-
-
-                     <div class="item">
+            <div class="item">
                 <div>
                     <input type="checkbox" name="list" id="item-3">
-
-                    <div class="custon-checkbox">
-                        <img src="./assets/checked.svg" alt="">
+                    <div class="custom-checkbox">
+                        <img src="./assets/checked.svg" alt="checked">
                     </div>
-                    <label for="item-3">morango</label>
+                    <label for="item-3">Morango</label>
                 </div>
+                <button>
+                    <img src="./assets/trash-icon.svg" alt="trash icon">
+                </button>
+            </div>
+        </section>
 
-                <button><img src="./assets/trash-icon.svg" alt=""></button>
-                </div>
-            </section>
+        <div class="warning hide-warning">
+            <div>
+                <i class="ph ph-warning-circle ph-fill"></i>
+                <span>O intem foi removido da lista</span>
+            </div>
 
-    <div class="warning">
-        <div>
-         <i class="ph ph-warning-circle ph-fill"></i>
-        <span>O item foi removido da lista</span>
-
-      
+            <button>
+                <i class="ph ph-x"></i>
+            </button>
         </div>
-
-        <button>
-            <i class="ph ph-x"></i>
-        </button>
-    </div>
-        </main>
-    </header>
+    </main>
 </body>
-</html>
+</htm

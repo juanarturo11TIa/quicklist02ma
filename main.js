@@ -5,8 +5,10 @@ function addItem() {
 
     const item = {
         name: itemName,
-        checked:false
+        checked: false
     }
 
     items.push(item)
+
+    document.querySelector("#item").value = ""
 }

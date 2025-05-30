@@ -211,7 +211,7 @@ main {
         }
     }
 
-    add.item {
+    .add-item {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         gap: 1.6rem;
